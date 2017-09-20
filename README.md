@@ -1,6 +1,7 @@
 # docker-sqliteweb
 SQLite database web administration tool running on Docker
 
+Read more on sqlite-web at [charlesleifer.com](http://charlesleifer.com/blog/web-based-sqlite-database-browser-using-flask/).
 
 ## Usage
 
