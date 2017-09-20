@@ -1,6 +1,6 @@
 FROM python:3
 
-RUN pip install sqlite-web flask peewee
+RUN pip install sqlite-web
 
 VOLUME /db
 WORKDIR /db
