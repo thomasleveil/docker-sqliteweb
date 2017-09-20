@@ -1,0 +1,13 @@
+version: "2.1"
+
+services:
+  sqliteweb:
+    build:
+      context: .
+    ports:
+      - 8080:8080
+    volumes:
+      - ./db:/db
+    command: example.db
+    healthcheck:
+      test: bash -c ">/dev/tcp/127.0.0.1/8080"
